@@ -1,5 +1,5 @@
 <template>
-  <q-layout view="lHh Lpr lFf">
+  <q-layout style="overflow-x: clip">
     <q-page-container>
       <router-view />
     </q-page-container>

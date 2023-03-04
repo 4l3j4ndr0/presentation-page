@@ -242,6 +242,11 @@ export default defineComponent({
         ).href,
         url: "https://www.credly.com/badges/cbb33f9e-330c-4100-ac2d-d4addc744cb1/public_url",
       },
+      {
+        image: new URL("../../badges/comunity_builder.png", import.meta.url)
+          .href,
+        url: "",
+      },
     ];
 
     return {
