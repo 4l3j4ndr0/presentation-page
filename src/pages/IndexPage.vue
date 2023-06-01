@@ -87,7 +87,7 @@
         <q-img
           @click="redirectToNetwork(item.url)"
           v-for="item in certifications"
-          style="width: 40%; height: 40%; cursor: pointer"
+          style="width: 30%; height: 30%; cursor: pointer"
           :src="item.image"
         />
       </div>
@@ -225,6 +225,13 @@ export default defineComponent({
       },
       {
         image: new URL(
+          "../../badges/aws-certified-developer-associate.png",
+          import.meta.url
+        ).href,
+        url: "https://www.credly.com/badges/9812bf1c-9323-4e69-a5b4-d92142bf1329/public_url",
+      },
+      {
+        image: new URL(
           "../../badges/aws-accreditation-technical.png",
           import.meta.url
         ).href,
@@ -241,6 +248,13 @@ export default defineComponent({
           import.meta.url
         ).href,
         url: "https://www.credly.com/badges/cbb33f9e-330c-4100-ac2d-d4addc744cb1/public_url",
+      },
+      {
+        image: new URL(
+          "../../badges/aws-partner-migration-ambassador-2023-business.png",
+          import.meta.url
+        ).href,
+        url: "https://www.credly.com/badges/cc5ff5ed-0c50-47f2-9ad9-a77f335de725/public_url",
       },
       {
         image: new URL("../../badges/comunity_builder.png", import.meta.url)
