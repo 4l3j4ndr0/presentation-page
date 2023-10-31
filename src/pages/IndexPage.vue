@@ -218,6 +218,13 @@ export default defineComponent({
     const certifications: any = [
       {
         image: new URL(
+          "../../badges/aws-certified-solutions-architect-professional.png",
+          import.meta.url
+        ).href,
+        url: "https://www.credly.com/badges/4f5ac3a7-daa3-4efc-a60b-a092d7479590/public_url",
+      },
+      {
+        image: new URL(
           "../../badges/aws-solutions-architect-associate.png",
           import.meta.url
         ).href,
