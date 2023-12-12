@@ -19,7 +19,7 @@
           class="text-black"
           style="padding-top: 100px; text-align: center"
         >
-          <div class="row justify-center">
+          <div class="row justify-center" style="display: contents">
             <div class="col-12 col-md-auto">
               <div class="text-h5 text-bold ft">{{ name }}</div>
             </div>
