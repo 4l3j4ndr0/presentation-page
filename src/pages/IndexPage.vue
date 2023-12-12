@@ -35,9 +35,7 @@
           <div class="row justify-center q-gutter-md">
             <q-btn
               @click="
-                redirectToNetwork(
-                  'https://www.linkedin.com/in/alejandro-casta%C3%B1eda-ocampo-478420148'
-                )
+                redirectToNetwork('https://www.linkedin.com/in/castanedao')
               "
               class="text-primary"
               size="md"
